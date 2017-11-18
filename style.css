@@ -1,7 +1,51 @@
-body { padding-top: 150px; }
-
+body {
+    padding-top: 150px;
+    background-color: black;
+}
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+img {
+    width: 100%;
+}
+
+.navbar-custom {
+    color:  #C9F3D9;
+    background-color:  #C9F3D9;
+    
+}
+
+#logo {
+    color: teal;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#logo:hover {
+    background-color: lightgrey;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 
+}
+
+#right-nav {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #C9F3D9;
+    text-align: center;
 }
