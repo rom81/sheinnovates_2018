@@ -1,6 +1,8 @@
 body {
     padding-top: 150px;
-    background-color: black;
+    background-color: white;
+    opacity: 50;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 ul {
 	list-style-type: none;
@@ -12,26 +14,32 @@ img {
 }
 
 .navbar-custom {
-    color:  #C9F3D9;
-    background-color:  #C9F3D9;
+    color:  #54A096;
+    background-color:  #54A096;
     
 }
 
 #logo {
-    color: teal;
+    color: white;
     cursor: pointer;
     font-size: 30px;
 }
 
+
+
 #logo:hover {
-    background-color: lightgrey;
+    color: #E3F4E3;
 }
 
 a {
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: right;
-    padding-left: 
+    padding-left: 15px;
+}
+a:hover {
+    color: #E3F4E3;
+    text-decoration: none;
 }
 
 #right-nav {
@@ -39,11 +47,16 @@ a {
     padding-top: 10px;
 }
 
-p {
-    color: white;
-    font-size: 20px;
+#about {
+    font-size: 40px;
+    color: teal;
     text-align: center;
 }
+
+#note {
+    font-size: 20px;
+}
+
 
 h3 {
     color: #C9F3D9;
