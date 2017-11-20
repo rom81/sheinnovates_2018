@@ -29,12 +29,6 @@ img {
 }
 
 
-
-
-.imgContainer {
-  overflow: hidden;
-  height: 500px;
-}
 .imgContainer img {
   width:100%;
 }
