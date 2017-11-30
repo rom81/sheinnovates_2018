@@ -65,6 +65,10 @@ a:hover {
     text-align: center;
 }
 
+#faq {
+    padding: 20px 20px 20px 20px;
+}
+
 #note {
     font-size: 20px;
 }
@@ -82,4 +86,8 @@ h3 {
 .question_header {
     font-size: 20px;
     color: #54A096;
+}
+
+.question_body {
+    display: none;
 }
