@@ -33,7 +33,7 @@ img {
 
 .imgContainer img {
     overflow: hidden;
-  width:100%;
+    width: 100%;
 }
 #logo:hover {
     color: #FDBFFF;
@@ -75,7 +75,7 @@ h5 {
 }
 
 h3 {
-    color: #C9F3D9;
+    color: #424c55;
     text-align: center;
 }
 
