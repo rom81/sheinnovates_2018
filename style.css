@@ -37,10 +37,17 @@ img {
 }
 
 
+/*
 .imgContainer {
     overflow: hidden;
     max-height: 400px;
 }
+
+.imgContainer img {
+    
+}
+*/
+
 #logo:hover {
     color: #FDBFFF;
 }
