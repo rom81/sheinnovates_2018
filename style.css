@@ -33,7 +33,7 @@ img {
 }
 
 .schedule {
-    font-size: 20px
+    font-size: 20px;
 }
 
 
@@ -115,4 +115,14 @@ h3 {
 
 .question_body {
     display: none;
+}
+
+.sched_header {
+    
+}
+
+.sched_body {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
 }

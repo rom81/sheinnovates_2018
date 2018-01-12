@@ -29,6 +29,10 @@
             $(".question_body").hide();
             $(this).parent().children(".question_body").slideToggle(500); 
         });
+        $(".sched_body").hide('slow');
+        $(".sched_header").click(function() {
+            $(".sched_body").slideToggle(500); 
+        });
     });
     </script>  
     
@@ -80,7 +84,15 @@
             <p class="text-center schedule">8:00 AM Breakfast</p>
             <p class="text-center schedule">12:30 PM Lunch</p>
             <p class="text-center schedule">1:00 PM Afternoon Keynote
-            <br><i>with remarks from PNC</i></p>
+                <br><i>Workshop with PNC <span class="sched_header">(details)</span></i></p>
+            <div class="sched_body">
+                <i>Design Thinking & Innovation: A Brief Introduction to Human-Centered Design</i><br>
+An engaging, interactive workshop that introduces the fundamentals of Design Thinking to foster design-driven innovation. Participants will learn about the fundamentals of the design process, and engage in a hands-on activity to help focus their She Innovates solutions on users.
+
+<br><br>
+<i>Liz Sadoski</i> is an Experience Designer with PNC’s Enterprise Innovation Team. Having spent the majority of her childhood overseas, she is inspired to understand human behavior across cultures and what it is that makes us all human. She has a Bachelor of Science in Psychology and Economics from University of Pittsburgh. As an advocate for human centered design, she is interested in learning about people’s perspectives in order to create more thoughtful experiences.  
+<br><br>
+<i>Erica Gatts</i> is an Experience Designer with PNC’s Enterprise Innovation Team. She is a practitioner of human-centered design with several years of experience in the financial and healthcare sectors. She has a Master in Design from Carnegie Mellon University, and a Bachelor of Architecture from Woodbury University. She is particularly interested in how design thinking and design practice can enhance and improve people’s lives, and promote social good.</div>
             <p class="text-center schedule">3:00 PM Relaxing Activity</p>
             <p class="text-center schedule">5:45 PM Dinner</p>
             <p class="text-center schedule">6:00 PM Evening Keynote</p>
